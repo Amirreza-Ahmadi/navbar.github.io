@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.header {
+    background-color: rgb(230, 230, 230);
+}
+
+.header__item {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem  1.5rem 2.5rem;
+    transition: all 0.2s ease;
+    float: left;
+}
+
+.header__item:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgb(0, 0, 0);
+}
+
+.header__item:active {
+    background-color: rgb(212, 79, 239);
+    color: rgb(0, 0, 0);
+}
+
+.fa {
+    margin-right: 1rem;
+}
+
+.active {
+    background-color: rgb(212, 79, 239);
+}
+
+.active:hover {
+    background-color: rgb(212, 79, 239);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header__search-box {
+    float: right;
+    margin-top: 0.8rem;
+    margin-right: 1.2rem;
+}
+
+.search-text {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0;
+    width: 22rem;
+    font-size: 2rem;
+    float: left;
+    border-radius: 0.6rem 0 0 0.6rem;
+}
+
+.search-button {
+    border: none;
+    font-size: 1.8rem;
+    padding: 1rem 0.3rem 0.8rem 0.8rem;
+    background-color: rgb(210, 210, 210);
+    border-radius: 0 0.6rem 0.6rem 0; 
+    transition: all 0.2s ease;   
+}
+
+.search-button:active {
+    background-color: rgb(212, 79, 239);
+}
